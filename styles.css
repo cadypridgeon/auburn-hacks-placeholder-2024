@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Unbounded&display=swap");
+
+:root {
+  --primary: #ffffff;
+  --secondary: #d6e4ff;
+  --tertiary: #b3c9ff;
+  --accent: #f9bf86;
+  --background: #2d3f6c;
+
+  font-size: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+}
+
+/* ✿✿✿ COLORS ✿✿✿ */
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.tertiary {
+  color: var(--tertiary);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.background {
+  color: var(--background);
+}
+
+/* ✿✿✿ TYPOGRAPHY ✿✿✿ */
+
+.h1 {
+  font-family: "Unbounded", cursive;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 4rem;
+  text-transform: uppercase;
+}
+
+.h1-mobile {
+  font-family: "Unbounded", cursive;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+
+.h2 {
+  font-family: "Unbounded", cursive;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+}
+
+.h2-mobile {
+  font-family: "Unbounded", cursive;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-family: "Unbounded", cursive;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+.body-l {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.body-m {
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.body-s {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* ✿✿✿ BUTTONS ✿✿✿ */
+
+.large-button {
+  display: inline-flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: var(--primary);
+  color: var(--background);
+  font-family: "Unbounded";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.large-button:hover {
+  background-color: var(--accent);
+}
+
+.large-button-mobile {
+  display: inline-flex;
+  padding: 0.25rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: var(--primary);
+  color: var(--background);
+  font-family: "Unbounded";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.primary-button {
+  display: inline-flex;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: var(--primary);
+  color: var(--background);
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: var(--accent);
+}
+
+.secondary-button {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  background-color: var(--primary);
+  color: var(--background);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: var(--accent);
+}
+
+.tertiary-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.tertiary-button:hover {
+  color: var(--accent);
+}
+
+/* ✿✿✿ PAGE ✿✿✿ */
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  background: rgb(14, 19, 32);
+  background: linear-gradient(
+    330deg,
+    rgba(14, 19, 32, 1) 0%,
+    rgba(41, 67, 129, 1) 100%
+  );
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 11.25rem; */
+  /* padding-top: 11.25rem; */
+  /* padding-bottom: 11.25rem; */
+  padding-left: 5rem;
+  padding-right: 5rem;
+  min-height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .content {
+    display: none;
+  }
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  z-index: 10;
+}
+
+/* ✿✿✿ SOCIALS ✿✿✿ */
+
+.socials {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.socials .circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.socials .circle:hover {
+  background-color: var(--accent);
+}
+
+.socials .logo {
+  display: flex;
+  color: var(--background);
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* ✿✿✿ STARS ✿✿✿ */
+
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.star {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 0 2px 2px rgb(255, 255, 255, 0.2);
+  animation: sparkle linear infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0%;
+  }
+  10% {
+    opacity: 100%;
+  }
+  90% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+/* ✿✿✿ MOBILE ✿✿✿ */
+
+.content-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 11.25rem; */
+  /* padding-top: 11.25rem; */
+  /* padding-bottom: 11.25rem; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+  min-height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .content-mobile {
+    display: flex;
+  }
+}
+
+.home-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  z-index: 10;
+}
+
+.socials-mobile {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.socials-mobile .circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.socials-mobile .circle:hover {
+  background-color: var(--accent);
+}
+
+.socials-mobile .logo {
+  display: flex;
+  color: var(--background);
+  max-width: 1rem;
+  max-height: 1rem;
+  font-size: 1rem;
+}
