@@ -1,5 +1,6 @@
-
 function countDown(){
+    // Variable Declarations
+    const countDownDisplay = document.querySelector("#countdown");
     let countDownDate = new Date("Feb 3, 2024 00:00:00").getTime();
     let present = new Date().getTime();
     let distance = countDownDate - present;
@@ -10,17 +11,17 @@ function countDown(){
     let seconds = Math.floor((distance % (1000*60)) / 1000);
 
 
-    let countDownDisplay = document.querySelector("#countdown");
+    // Displaying the Countdown
     countDownDisplay.innerHTML = `<p>${months}m ${days}d ${hours}h ${minutes}m ${seconds}s</p>`;
-    
-
     countDown.className = "countdown";
 
+    // Changing text for countdown ending/event starting
     if (distance < 0) {
         clearInterval(countDown);
         countDown.innerHTML = "HERE WE GO!";
     }
 }
 
+// Initializes the countdown and then runs the script once every second.
 countDown();
 let x = setInterval(countDown, 1000);
