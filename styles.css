@@ -232,7 +232,7 @@ p {
 
 .background {
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   overflow-y: hidden;
   background: rgb(14, 19, 32);
   background: linear-gradient(
@@ -302,6 +302,27 @@ p {
   align-items: center;
   text-align: center;
   gap: 2rem;
+  z-index: 10;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  z-index: 10;
+}
+
+.item1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   z-index: 10;
 }
 
