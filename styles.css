@@ -281,7 +281,7 @@ p {
   font-size: 20px;
 }
 
-.navbar .navigation {
+.navbar .navigation{
   margin-left: 2vw;
   margin-right: 11vw;
   display: flex;
@@ -289,11 +289,13 @@ p {
   align-items: center;
   gap: 32px;
   align-self: stretch;
+
 }
 
 .navbar .navigation a:not(.primary-button):hover {
   color: var(--accent);
   transition: color 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .home {
@@ -307,20 +309,22 @@ p {
 }
 
 .about {
-  margin-top: 250px;
-  margin-bottom: 200px;
+  padding-top: 250px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   z-index: 10;
 }
 
 
 .faq {
-  margin-top: 250px;
-  margin-bottom: 200px;
+  padding-top: 250px;
+  margin-bottom: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -345,6 +349,7 @@ p {
   display: flex;
   align-items: flex-start;
   gap: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .question svg {
@@ -389,19 +394,6 @@ p {
   }
 }
 
-.item1 {
-
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 2rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  z-index: 10;
-}
-
 .countdown {
   display: flex;
   flex-direction: column;
@@ -418,7 +410,7 @@ p {
   align-items: flex-start;
   gap: 2rem;
   position: absolute;
-  margin: 50px;
+  margin-bottom: 10rem;
   bottom: 0;
 }
 
@@ -445,11 +437,26 @@ p {
   font-size: 1.5rem;
 }
 
+.mlh-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  margin: 50px;
+  bottom: 0;
+}
+.mlh-info a:hover{
+  color: var(--accent);
+  transition: ease-in-out 0.2s;
+}
+
 /* ARROWS */
 .arrows {
   margin-top: 100px;
 	width: 60px;
 	height: 72px;
+  cursor: pointer;
 }
 
 .arrows path {

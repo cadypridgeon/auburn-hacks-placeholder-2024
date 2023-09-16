@@ -33,7 +33,7 @@
         <link rel="stylesheet" type="text/css" href="./styles.css" />
         <link rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-        <script src="./scripts/slowScroll.js"></script>
+        <script src="./scripts/smoothScroll.js"></script>
     </head>
 
 
@@ -46,10 +46,10 @@
                     <p>Auburn Hacks</p>
                 </div>
                 <div class="navigation">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#faq">FAQ</a>
-                  <a href="#sponsors">Sponsors</a>
+                  <a href="#" onclick="smoothScroll('home')">Home</a>
+                  <a href="#" onclick="smoothScroll('about')">About</a>
+                  <a href="#" onclick="smoothScroll('faq')">FAQ</a>
+                  <a href="#" onclick="smoothScroll('sponsors')">Sponsors</a>
                   <a class="primary-button" target="_blank" href="https://forms.gle/yj7QgRMiyZonyTfF7">Pre-Register</a>
                   <a id="mlh-trust-badge"
                   style="display:block;max-width:80px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
@@ -60,7 +60,8 @@
                 </div>
         </div>
             <div class="content">
-                <div class="home">
+
+                <div class="home" id="home">
                     <h1 class="h1 primary">Auburn Hacks</h1>
                     <h2 class="h2 primary">February 3-4, 2024</h2>
                     <a
@@ -76,15 +77,14 @@
                     </div>
 
                     <div class="scroll-down">
-                        <button type="button" onclick="smoothScroll()" style="background: transparent; border: none;"><svg class="arrows">
+                        <button type="button" onclick="smoothScroll('about')" style="background: transparent; border: none;"><svg class="arrows">
 							<path class="a1" d="M0 0 L30 32 L60 0"></path>
 							<path class="a2" d="M0 20 L30 52 L60 20"></path>
 							<path class="a3" d="M0 40 L30 72 L60 40"></path>
-						</svg></a>   
+						</svg></button>   
                     </div>
 
                     <div class="about" id="about">
-                        <div class="item1">
                             <h1 class="h1 primary">About</h1>
                             <p class="body-s secondary">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nulla voluptatibus enim molestiae et ipsam mollitia laborum! Dicta eius voluptatum ad. Doloribus, velit. Amet optio, aspernatur voluptatem ab autem labore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus vero repudiandae rerum illo, et sint, nemo, dolores necessitatibus soluta accusantium eveniet repellat in ab iusto. Sunt porro reiciendis qui tempora!Lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis modi sit quae fugiat suscipit nihil! Dicta, veniam laborum voluptate eius mollitia neque natus, quibusdam sit nihil in, vitae facilis.
@@ -95,10 +95,9 @@
                                 target="_blank">
                                 Pre-register
                             </a>
-                        </div>
                     </div>
 
-                    <div class="faq">
+                    <div class="faq" id="faq">
                         <h1 class="h1 primary">FAQ</h1>
                         <div class="faq-wrapper">
                             <div class="faq-container">
@@ -204,6 +203,10 @@
                             class="circle">
                             <i class="logo fas fa-envelope"></i>
                         </a>
+                    </div>
+                    <div class="mlh-info">
+                        <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="body-s primary bold">MLH Code of Conduct</a>
+                        <p class="body-s primary">© 2023 Auburn Hacks</p>
                     </div>
                 </div>
             </div>
