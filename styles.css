@@ -359,6 +359,7 @@ p {
   height: 9.587px;
   animation: flipDown 0.7s;
   animation-fill-mode: forwards;
+  cursor: pointer;
 }
 
 .active svg {
