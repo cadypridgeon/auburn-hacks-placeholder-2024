@@ -58,7 +58,7 @@ p {
 
 .h1 {
   font-family: "good-times", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 800;
   line-height: 4rem;
@@ -76,7 +76,7 @@ p {
 
 .h2 {
   font-family: "good-times", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: 2.5rem;
@@ -280,9 +280,9 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 11.25rem; */
-  /* padding-top: 11.25rem; */
-  /* padding-bottom: 11.25rem; */
+  gap: 20rem;
+  padding-top: 8rem;
+  padding-bottom: 3rem;
   padding-left: 5rem;
   padding-right: 5rem;
   min-height: 100vh;
@@ -369,8 +369,8 @@ p {
 }
 
 .about {
-  padding-top: 250px;
-  margin-bottom: 100px;
+  /* padding-top: 250px; */
+  /* margin-bottom: 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -382,8 +382,8 @@ p {
 }
 
 .faq {
-  padding-top: 250px;
-  margin-bottom: 175px;
+  /* padding-top: 250px; */
+  /* margin-bottom: 175px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -464,8 +464,8 @@ p {
 }
 
 .sponsors {
-  padding-top: 200px;
-  margin-bottom: 400px;
+  /* padding-top: 200px; */
+  /* margin-bottom: 400px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -476,15 +476,22 @@ p {
   z-index: 10;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* ✿✿✿ SOCIALS ✿✿✿ */
 
 .socials {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  position: absolute;
-  margin-bottom: 10rem;
-  bottom: 0;
+  /* position: absolute; */
+  /* margin-bottom: 10rem; */
+  /* bottom: 0; */
 }
 
 .socials .circle {
@@ -544,9 +551,9 @@ p {
   align-items: center;
   flex-direction: column;
   gap: 1rem;
-  position: absolute;
-  margin: 50px;
-  bottom: 0;
+  /* position: absolute; */
+  /* margin: 50px; */
+  /* bottom: 0; */
 }
 
 .mlh-info a:hover {
