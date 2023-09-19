@@ -364,6 +364,7 @@ p {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  cursor: pointer;
   /* align-items: center; */
   /* gap: 16px; */
   /* font-size: 20px; */
