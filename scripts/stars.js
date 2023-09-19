@@ -27,4 +27,4 @@ function generateStars(num) {
   }
 }
 
-generateStars(100);
+generateStars(300);
