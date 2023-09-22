@@ -13,3 +13,21 @@ window.addEventListener("scroll", function () {
 
   prevScrollPos = currentScrollPos;
 });
+
+const menuCheckbox = document.querySelector("#menu-checkbox");
+const menu = document.querySelector("#menu")
+const menuToggle = document.querySelector("#menu-toggle");
+
+menuCheckbox.addEventListener("change", function () {
+ if (this.checked) {
+  setTimeout(() => {
+  menu.style.display = "flex";
+  menuToggle.style.width = "100vw";
+  }, 0);
+ } else {
+  setTimeout(() => {
+  menu.style.display = "none";
+  menuToggle.style.width = "0";
+  }, 500);
+ }
+})
