@@ -562,20 +562,27 @@ p {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   padding: 32px;
+  cursor: pointer;
 }
+
 
 .question {
   display: flex;
   align-items: flex-start;
   gap: 16px;
   font-family: "Inclusive Sans", sans-serif;
-  cursor: pointer;
   transition: color 0.2s ease-in-out;
 }
 
-.question:hover {
+/* Text changes color when any part of the question is hovered */
+.faq-container:hover .question p{
   color: var(--accent);
 }
+
+/* Text changes color when text is hovered */
+/* .question:hover {
+  color: var(--accent);
+} */
 
 .question svg {
   margin-left: auto;
@@ -584,7 +591,6 @@ p {
   height: 9.587px;
   animation: flipDown 0.7s;
   animation-fill-mode: forwards;
-  cursor: pointer;
 }
 
 .active svg {
