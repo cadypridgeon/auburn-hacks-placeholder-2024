@@ -422,8 +422,8 @@ p {
   left: 1.5rem;
   z-index: 10;
   user-select: none;
-  width: 100vw;
-  height: 100vh;
+  width: 0;
+  height: 100%;
 }
 
 #menu-toggle input {
@@ -569,6 +569,7 @@ p {
   background: rgba(255, 255, 255, 0.1);
   padding: 32px;
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
 }
 
 .question {
@@ -576,6 +577,9 @@ p {
   align-items: flex-start;
   gap: 16px;
   font-family: "Inclusive Sans", sans-serif;
+}
+
+.question p {
   transition: color 0.2s ease-in-out;
 }
 
