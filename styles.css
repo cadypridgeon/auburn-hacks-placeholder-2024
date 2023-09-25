@@ -283,7 +283,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 20rem;
   padding-top: 12rem;
   padding-bottom: 3rem;
   padding-left: 15rem;
@@ -303,7 +303,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 10rem;
   padding-top: 12rem;
   /* padding-bottom: 11.25rem; */
   padding-left: 3rem;
@@ -504,7 +504,8 @@ p {
   text-align: center;
   gap: 3rem;
   z-index: 10;
-  margin-top: 100px;
+  padding-top: 10rem;
+  margin-top: -5rem;
 }
 
 .home-mobile {
@@ -514,10 +515,13 @@ p {
   text-align: center;
   gap: 1.5rem;
   z-index: 10;
+  padding-top: 10rem;
+  margin-top: -10rem;
 }
 
 .about {
-   padding-top: 10rem; 
+  padding-top: 10rem;
+  margin-top: -10rem;
   /* margin-bottom: 100px; */
   display: flex;
   flex-direction: column;
@@ -529,6 +533,7 @@ p {
 
 .about-mobile {
   padding-top: 5rem;
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -538,7 +543,8 @@ p {
 }
 
 .faq {
-  padding-top: 10rem; 
+  padding-top: 10rem;
+  margin-top: -10rem;
   /* margin-bottom: 175px; */
   display: flex;
   flex-direction: column;
@@ -550,6 +556,7 @@ p {
 
 .faq-mobile {
   padding-top: 5rem;
+  margin-top: -5rem;
   /* margin-bottom: 175px; */
   display: flex;
   flex-direction: column;
@@ -637,7 +644,8 @@ p {
 }
 
 .countdown {
-  padding-top: 10rem; 
+  padding-top: 10rem;
+  margin-top: -10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -648,6 +656,7 @@ p {
 
 .countdown-mobile {
   padding-top: 5rem;
+  margin-top: -5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -657,7 +666,8 @@ p {
 }
 
 .sponsors {
-  padding-top: 10rem; 
+  padding-top: 10rem;
+  margin-top: -10rem;
   /* margin-bottom: 400px; */
   display: flex;
   flex-direction: column;
@@ -669,6 +679,7 @@ p {
 
 .sponsors-mobile {
   padding-top: 5rem;
+  margin-top: -5rem;
   /* margin-bottom: 400px; */
   display: flex;
   flex-direction: column;
