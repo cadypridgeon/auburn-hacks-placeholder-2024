@@ -283,7 +283,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20rem;
+  gap: 10rem;
   padding-top: 12rem;
   padding-bottom: 3rem;
   padding-left: 15rem;
@@ -303,7 +303,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
   padding-top: 12rem;
   /* padding-bottom: 11.25rem; */
   padding-left: 3rem;
@@ -517,7 +517,7 @@ p {
 }
 
 .about {
-  /* padding-top: 250px; */
+   padding-top: 10rem; 
   /* margin-bottom: 100px; */
   display: flex;
   flex-direction: column;
@@ -528,6 +528,7 @@ p {
 }
 
 .about-mobile {
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -537,7 +538,7 @@ p {
 }
 
 .faq {
-  /* padding-top: 250px; */
+  padding-top: 10rem; 
   /* margin-bottom: 175px; */
   display: flex;
   flex-direction: column;
@@ -548,7 +549,7 @@ p {
 }
 
 .faq-mobile {
-  /* padding-top: 250px; */
+  padding-top: 5rem;
   /* margin-bottom: 175px; */
   display: flex;
   flex-direction: column;
@@ -636,6 +637,7 @@ p {
 }
 
 .countdown {
+  padding-top: 10rem; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -645,6 +647,7 @@ p {
 }
 
 .countdown-mobile {
+  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -654,7 +657,7 @@ p {
 }
 
 .sponsors {
-  /* padding-top: 200px; */
+  padding-top: 10rem; 
   /* margin-bottom: 400px; */
   display: flex;
   flex-direction: column;
@@ -665,7 +668,7 @@ p {
 }
 
 .sponsors-mobile {
-  /* padding-top: 200px; */
+  padding-top: 5rem;
   /* margin-bottom: 400px; */
   display: flex;
   flex-direction: column;
