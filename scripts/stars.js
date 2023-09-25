@@ -18,7 +18,8 @@ function generateStar() {
   return star;
 }
 
-function generateStars(num) {
+function generateStars() {
+  let num = window.innerWidth * 0.5;
   const container = document.getElementById("stars");
 
   for (let i = 0; i < num; i++) {
@@ -27,4 +28,4 @@ function generateStars(num) {
   }
 }
 
-generateStars(100);
+window.addEventListener("load", generateStars);
