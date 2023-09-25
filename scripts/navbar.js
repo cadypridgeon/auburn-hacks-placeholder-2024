@@ -21,15 +21,13 @@ const menuToggle = document.querySelector("#menu-toggle");
 menuCheckbox.addEventListener("change", function () {
   if (this.checked) {
     setTimeout(() => {
-      menu.style.display = "flex";
-      menuToggle.style.width = "100vw";
-      menuToggle.style.height = "100vh";
+      menu.style.opacity = "1";
+      menu.style.visibility = "visible";
     }, 0);
   } else {
     setTimeout(() => {
-      menu.style.display = "none";
-      menuToggle.style.width = "0";
-      menuToggle.style.height = "100%";
+      menu.style.opacity = "0";
+      menu.style.visibility = "hidden";
     }, 500);
   }
 });
