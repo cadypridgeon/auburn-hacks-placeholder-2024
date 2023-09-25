@@ -33,3 +33,8 @@ menuCheckbox.addEventListener("change", function () {
     }, 500);
   }
 });
+
+function closeAndScroll(id) {
+  smoothScroll(id);
+  menuCheckbox.click();
+}

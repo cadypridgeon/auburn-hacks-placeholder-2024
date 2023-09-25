@@ -67,14 +67,14 @@
                     <span></span>
                     <ul id="menu">
                         <a class="primary body-s bold" href="#"
-                            onclick="smoothScroll('content')">Home</a>
-                        <a class="primary body-s bold" href="#"
-                            onclick="smoothScroll('about')">About</a>
-                        <a class="primary body-s bold" href="#"
-                            onclick="smoothScroll('faq')">FAQ</a>
-                        <a class="primary body-s bold" href="#"
-                            onclick="smoothScroll('sponsors')">Sponsors</a>
-                        <a class="primary-button body-s bold"
+                            onclick="closeAndScroll('home-mobile')">Home</a>
+                        <a class="primary body-s bold"
+                            onclick="closeAndScroll('about-mobile')">About</a>
+                        <a class="primary body-s bold"
+                            onclick="closeAndScroll('faq-mobile')">FAQ</a>
+                        <a class="primary body-s bold"
+                            onclick="closeAndScroll('sponsors-mobile')">Sponsors</a>
+                        <a class="primary-button body-s bold"s
                             target="_blank"
                             href="https://auburn.qualtrics.com/jfe/form/SV_3fl8aWfQOrPETXg">Pre-Register</a>
                     </ul>
@@ -363,7 +363,7 @@
             </div>
 
             <div class="content-mobile">
-                <div class="home-mobile" id="home">
+                <div class="home-mobile" id="home-mobile">
                     <h1 class="h2 primary">Auburn Hacks</h1>
                     <h2 class="h3 primary">February 3-4, 2024</h2>
                     <a
@@ -373,7 +373,7 @@
                         Pre-Register
                     </a>
                     <div class="scroll-down">
-                        <button type="button" onclick="smoothScroll('about')"
+                        <button type="button" onclick="smoothScroll('about-mobile')"
                             style="background: transparent; border: none;"><svg
                                 class="arrows">
                                 <path class="a1" d="M0 0 L30 32 L60 0"></path>
@@ -383,7 +383,7 @@
                     </div>
                 </div>
 
-                <div class="about-mobile" id="about">
+                <div class="about-mobile" id="about-mobile">
                     <h2 class="h3 primary">About</h2>
                     <p class="body-s secondary">
                         Auburn Hacks is a 24-hour event where students from
@@ -407,7 +407,7 @@
                     </a>
                 </div>
 
-                <div class="faq-mobile" id="faq">
+                <div class="faq-mobile" id="faq-mobile">
                     <h2 class="h3 primary">FAQ</h2>
                     <div class="faq-wrapper">
                         <div class="faq-container">
@@ -588,7 +588,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sponsors-mobile" id="sponsors">
+                <div class="sponsors-mobile" id="sponsors-mobile">
                     <h2 class="h3 primary">Sponsors</h2>
                     <p class="body-s secondary"><strong class="primary">Interested
                             in sponsoring
